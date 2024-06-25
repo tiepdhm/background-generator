@@ -3,6 +3,6 @@ def divide(num1, num2):
         if (num1 and num2) or (int(num1) * int(num2) == 0):
             return num1 / num2
         else:
-            return 'please enter the numbers'
+            return 'please enter the numbers, you typed wrong'
     except ZeroDivisionError as err:
         return err
